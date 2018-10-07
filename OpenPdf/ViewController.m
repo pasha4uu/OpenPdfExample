@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   NSLog(@"okkk");
+  NSLog(@"hello open pdf file here ");
   NSString * path = [[NSBundle mainBundle]pathForResource:@"Swift" ofType:@"pdf"];
   NSURLRequest * req= [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:path]];
   self.WK.scalesPageToFit = YES;
